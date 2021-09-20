@@ -4,7 +4,7 @@ body {
 
 /* Header */
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
@@ -48,4 +48,115 @@ body {
     margin: auto 0 auto 30px;
     text-decoration: none;
     color: blue;
+}
+
+/* Main */
+
+main {
+    padding: 0 50px;
+}
+
+/* Research */
+
+.research__title {
+    font-size: 1.6em;
+    margin-bottom: 0;
+}
+
+.research__subtitle {
+    font-size: .95em;
+    margin-top: 5px;
+}
+
+.research__form {
+    display: inline-block;
+    height: 40px;
+}
+
+.fa-map-marker-alt {
+    height: 29px;
+    padding-top: 9px;
+    width: 40px;
+    text-align: center;
+    background-color: #F2F2F2;
+    font-size: 1.1em;
+    border-radius: 12px 0 0 12px;
+}
+
+.research__form__text {
+    height: 100%;
+    width: 235px;
+    margin: 0 -7px;
+    border: 2px solid #F2F2F2;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.research__form__button {
+    height: 100%;
+    color: white;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0 12px 12px 0;
+    width: 95px;
+}
+
+.filter__title {
+    font-weight: 700;
+    margin: 12px 20px 0 0;
+
+}
+
+.filter {
+    display: flex;
+    margin-top: 25px;
+}
+
+.filter__item {
+    display: flex;
+    border: 1px solid black;
+    margin: 0 5px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: rgb(187, 187, 187);
+}
+
+.filter__icon {
+    width: 40px;
+    height: 27px;
+    padding-top: 13px;
+    text-align: center;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 20px;
+}
+
+.filter__text {
+    margin: auto 15px;
+    font-weight: 700;
+}
+
+.filter__item:hover .filter__icon{
+    color: #DEEBFF;
+    background-color: #0065FC;
+}
+
+.filter__item:hover {
+    border-color: #0065FC;
+}
+
+.filter__info {
+    margin-top: 25px;
+    font-size: .9em;
+}
+
+.fa-info {
+    height: 19px;
+    width: 22px;
+    padding-top: 3px;
+    border: 1px solid grey;
+    color: #0065FC;
+    text-align: center;
+    border-radius: 11px;
+    margin-right: 8px;
 }
