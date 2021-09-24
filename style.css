@@ -343,3 +343,31 @@ main {
 .activity__card:nth-child(6) {
     background: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg) center;
 }
+
+/* Footer */
+
+footer {
+    display: flex;
+    background-color: #F2F2F2;
+    margin-top: 50px;
+}
+
+.footer__part {
+    margin: 50px;
+    margin-right: 300px;
+}
+
+.footer__title {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__list__item {
+    margin: 15px;
+    margin-left: -40px;
+    font-weight: 400;
+}
