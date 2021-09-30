@@ -9,7 +9,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
-
 }
 
 .header__logo {
@@ -32,7 +31,7 @@ header {
 }
 
 .nav__list__item--active {
-    border-top: solid blue;
+    border-top: solid #0065FC;
     padding-top: 13px;
 }
 
@@ -43,13 +42,13 @@ header {
 }
 
 .nav__link--active {
-    color: blue;
+    color: #0065FC;
 }
 
 .header__link {
     margin: auto 0 auto 30px;
     text-decoration: none;
-    color: blue;
+    color: #0065FC;
     font-weight: 700;
 }
 
@@ -60,6 +59,10 @@ main {
 }
 
 /* Research */
+
+.research {
+    margin-bottom: 20px;
+}
 
 .research__title {
     font-size: 1.6em;
@@ -197,7 +200,8 @@ main {
     padding: 35px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    height: fit-content;
 }
 
 .location--flex {
@@ -226,8 +230,9 @@ main {
     border-radius: 20px;
     background-color: #F2F2F2;
     width: 25%;
-    height: 770px;
+    height: 755px;
     padding: 35px;
+    padding-bottom: 0;
 }
 
 .popular_location__title {
@@ -249,7 +254,7 @@ main {
     height: 25%;
     background-color: white;
     border-radius: 20px;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .popular_location__card__picture {
@@ -297,6 +302,10 @@ main {
 }
 
 /* Activity */
+
+.activity {
+    margin-top: 50px;
+}
 
 .activity--flex{
     height: 600px;
