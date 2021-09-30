@@ -287,6 +287,10 @@ main {
     margin-top: 5px;
 }
 
+.card__text--bold {
+    font-weight: 700;
+}
+
 .card__rating {
     font-size: .7em;
     margin-top: auto;
