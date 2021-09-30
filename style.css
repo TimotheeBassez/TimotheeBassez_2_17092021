@@ -104,6 +104,10 @@ main {
     width: 95px;
 }
 
+.research__form__button:hover {
+    cursor: pointer;
+}
+
 .research__form__button--mobile {
     display: none;
 }
@@ -151,6 +155,7 @@ main {
 
 .filter__item:hover {
     border-color: #0065FC;
+    cursor: pointer;
 }
 
 .filter__info {
