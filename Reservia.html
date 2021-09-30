@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7ce3eab953.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 320px)" href="smartphone.css">
     <title>Reservia</title>
 </head>
 
@@ -29,13 +30,14 @@
             <form class="research__form">
                 <i class="fas fa-map-marker-alt"></i>
                 <input type="search" value="Marseille, France" class="research__form__text">
-                <input type="button" value="Rechercher" class="research__form__button">
+                <button class="research__form__button research__form__button--desktop">Rechercher</button>
+                <button class="research__form__button research__form__button--mobile"><i class="fas fa-search"></i></button>
             </form>
             <div class="filter">
                 <p class="filter__title">Filtres</p>    
                 <div class="filter__item">
                     <i class="fas fa-money-bill-wave filter__icon"></i>
-                    <p class="filter__text">Economique</p>
+                    <p class="filter__text">Économique</p>
                 </div>
                 <div class="filter__item">
                     <i class="fas fa-child filter__icon"></i>
@@ -50,7 +52,8 @@
                     <p class="filter__text">Animaux autorisés</p>
                 </div>
             </div>
-            <p class="filter__info"><i class="fas fa-info"></i>Plus de 500 logements sont disponible dans cette ville</p>
+            <i class="fas fa-info filter__info"></i>
+            <p class="filter__info filter__info__text"></i>Plus de 500 logements sont disponible dans cette ville</p>
         </section>
         <div class="page_center">
             <section class="location">
@@ -104,8 +107,6 @@
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="location--flex">
                     <a href="#" class="card">
                         <div class="location__card">
                             <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hôtel de la mer" class="location__card__picture">
@@ -210,7 +211,7 @@
             </section>
         </div>
         <section class="activity">
-            <h2>Activités à Marseille</h2>
+            <h2 class="activity__title">Activités à Marseille</h2>
             <div class="activity--flex">
                 <a href="#" class="card activity__card activity__card--large">
                     <div class="activity__card__content">

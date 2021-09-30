@@ -1,5 +1,6 @@
 body {
     font-family: "Raleway", sans-serif;
+    margin: 0;
 }
 
 /* Header */
@@ -40,6 +41,7 @@ header {
     text-decoration: none;
     color: black;
 }
+
 .nav__link--active {
     color: blue;
 }
@@ -48,6 +50,7 @@ header {
     margin: auto 0 auto 30px;
     text-decoration: none;
     color: blue;
+    font-weight: 700;
 }
 
 /* Main */
@@ -86,7 +89,7 @@ main {
 .research__form__text {
     height: 100%;
     width: 235px;
-    margin: 0 -7px;
+    margin: 0 -10px 0 -7px;
     border: 2px solid #F2F2F2;
     font-weight: 700;
     padding-left: 10px;
@@ -101,6 +104,10 @@ main {
     width: 95px;
 }
 
+.research__form__button--mobile {
+    display: none;
+}
+
 .filter__title {
     font-weight: 700;
     margin: 12px 20px 0 0;
@@ -110,6 +117,7 @@ main {
 .filter {
     display: flex;
     margin-top: 25px;
+    flex-wrap: wrap;
 }
 
 .filter__item {
@@ -147,18 +155,22 @@ main {
 
 .filter__info {
     margin-top: 25px;
-    font-size: .9em;
+    font-size: .8em;
 }
 
-.fa-info {
+.fa-info {   
     height: 19px;
     width: 22px;
     padding-top: 3px;
-    border: 1px solid grey;
+    border: 1px solid rgba(167, 167, 167, 0.4);
     color: #0065FC;
     text-align: center;
     border-radius: 11px;
     margin-right: 8px;
+}
+
+.filter__info__text {
+    display: inline-block;
 }
 
 /* Center of the page*/
@@ -186,7 +198,7 @@ main {
 .location--flex {
     display: flex;
     justify-content: space-between;
-    align-content: space-around;
+    flex-wrap: wrap;
 }
 
 .location__card {
@@ -194,6 +206,7 @@ main {
     height: 260px;
     background-color: white;
     border-radius: 20px;
+    margin: 20px 0;
 }
 
 .location__card__picture {
@@ -212,8 +225,13 @@ main {
     padding: 35px;
 }
 
+.popular_location__title {
+    position: relative;
+}
+
 .fa-chart-line {
-    margin-left: 199px;
+    position: absolute;
+    right: 0;
 }
 
 .location__text {
