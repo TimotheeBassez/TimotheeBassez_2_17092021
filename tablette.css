@@ -1,0 +1,54 @@
+main {
+    padding: 0 5%;
+}
+
+
+.page_center {
+    flex-direction: column-reverse;
+}
+
+.popular_location {
+    width: 90%;
+    height: fit-content;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+.popular_location--flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular_location__card {
+    width: 250px;
+    height: 200px;
+}
+
+.location {
+    width: 90%;
+}
+
+.activity {
+    width: 90%;
+}
+
+.activity--flex {
+    flex-direction: row;
+    justify-content: space-around;
+    height: fit-content;
+}
+
+.activity__card {
+    width: 330px;
+    height: 260px;
+    margin: 10px;
+}
+
+footer {
+    padding: 0 5%;
+}
+
+.footer__part {
+    margin-left: 0;
+    margin-right: 80px;
+}
