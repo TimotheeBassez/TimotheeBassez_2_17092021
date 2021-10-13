@@ -9,7 +9,7 @@ main {
 
 .popular_location {
     width: 90%;
-    height: fit-content;
+    height: 340px;
     padding-bottom: 25px;
     margin-bottom: 10px;
 }
@@ -28,18 +28,17 @@ main {
     width: 90%;
 }
 
-.activity {
-    width: 90%;
-}
-
 .activity--flex {
     flex-direction: row;
     justify-content: space-around;
-    height: fit-content;
+    height: 850px;
+}
+
+.activity__card--width {
+    width: 330px;
 }
 
 .activity__card {
-    width: 330px;
     height: 260px;
     margin: 10px;
 }

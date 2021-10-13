@@ -107,7 +107,7 @@ main {
 
 .popular_location {
     width: 90%;
-    height: fit-content;
+    height: 950px;
     padding: 10px 5%;
     border-radius: 0;
 }
@@ -149,7 +149,7 @@ main {
 }
 
 .activity--flex {
-    height: fit-content;
+    height: 2400px;
     flex-direction: column;
 }
 
